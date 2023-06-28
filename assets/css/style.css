@@ -221,7 +221,6 @@ header {
 }
 
 /*main-banner*/
-
 .mainBanner>.container-fluid {
 	min-height: 600px;
 	padding: 0%;
@@ -314,7 +313,6 @@ header {
 
 
 /* Quote Section */
-
 .quote {
 	max-width: 1100px;
 	margin: auto;
@@ -541,7 +539,6 @@ img.pros-b2 {
 
 
 /* Contact Form Section */
-
 .contact-form {
 	padding: 60px 0px;
 }
@@ -763,8 +760,6 @@ img.pros-b2 {
 	border-radius: 20px;
 }
 
-
-
 .portfolio-detail img {
 	display: block;
 	margin: 10px 0px;
@@ -777,7 +772,6 @@ img.pros-b2 {
 	font-style: italic;
 	display: block;
 }
-
 
 /* Blogs Page  */
 .blogs-section {
@@ -891,7 +885,7 @@ img.pros-b2 {
 
 .blog-section figure span.name {
 	color: #121416;
-	font-size: 34px;
+	font-size: 32px;
 	font-weight: 500;
 	line-height: 25.318px;
 	display: block;
@@ -921,7 +915,6 @@ img.pros-b2 {
 }
 
 /* Contact Page */
-
 .contact-form.page {
 	padding: 60px 0px;
 }
@@ -940,7 +933,6 @@ img.pros-b2 {
 	font-size: 26px;
 	font-weight: 500;
 }
-
 
 /*footer*/
 footer {
@@ -1025,7 +1017,6 @@ footer li.social-link a {
 	padding: 18px 0px;
 }
 
-
 /*media-quries*/
 @media (max-width: 1440px) {}
 
@@ -1106,16 +1097,12 @@ footer li.social-link a {
 	}
 }
 
-@media (max-width: 1024px) {}
-
-@media (max-width: 980px) {}
-
-@media (min-width: 440px) and (max-width: 740px) {}
-
-
 @media (max-width: 1024px) {
+	.mainBanner img {
+		width: 35%;
+	}
 
-	/* Foooter */
+	/* Footer */
 
 	footer {
 		border-top-right-radius: 30px;
@@ -1152,8 +1139,10 @@ footer li.social-link a {
 }
 
 @media (max-width: 767px) {
-
 	/* Home Page */
+	.mainBanner img {
+		width: 40%;
+	}
 
 	/* About Section */
 
@@ -1200,16 +1189,13 @@ footer li.social-link a {
 	}
 
 	/* Contact Form Section */
-
 	.contact-form img {
 		width: 60%;
 		display: block;
 		margin: 0px auto 30px;
 	}
 
-
 	/* Porfolio Section */
-
 	.portfolio-section .col-md-4 {
 		margin-top: 20px;
 	}
@@ -1244,8 +1230,11 @@ footer li.social-link a {
 		flex: 1 1 calc(50% - 20px);
 	}
 
-	/* Foooter */
+	.blog-section figure span.name {
+		font-size: 28px;
+	}
 
+	/* Foooter */
 	footer .d-flex {
 		gap: 40px;
 		flex-direction: column;
@@ -1273,8 +1262,11 @@ footer li.social-link a {
 	}
 }
 
-
 @media (max-width: 500px) {
+	.mainBanner img {
+		width: 50%;
+	}
+
 	.main-header .logo img,
 	footer img {
 		width: 250px;
@@ -1291,7 +1283,6 @@ footer li.social-link a {
 	.contact-form .contact-form-body .input-container label span {
 		padding: 3px 10px;
 	}
-
 
 	/* Portfolio Page */
 	.portfolio-section .portfolio-section-body>div>div {
