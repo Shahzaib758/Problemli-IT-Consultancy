@@ -309,8 +309,11 @@ header {
 }
 
 .services .services-body .card:hover {
-	transform: translateY(-10px);
+	background-color: #000000b9;
 }
+
+
+/* Quote Section */
 
 .quote {
 	max-width: 1100px;
@@ -1272,6 +1275,11 @@ footer li.social-link a {
 
 
 @media (max-width: 500px) {
+	.main-header .logo img,
+	footer img {
+		width: 250px;
+	}
+
 	.contact-form .contact-form-body .input-container {
 		flex-direction: column;
 	}
