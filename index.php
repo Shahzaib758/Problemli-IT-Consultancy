@@ -184,6 +184,10 @@
                         <textarea name="" id="" cols="30" rows="10"></textarea>
                      </label>
                   </div>
+
+                  <div class="btn-container">
+                     <div class="btn">Submit</div>
+                  </div>
                </div>
             </div>
          </div>

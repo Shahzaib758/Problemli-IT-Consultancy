@@ -6,7 +6,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-sm-9">
+            <div class="col-md-9">
                 <div class="faq-body">
                     <div class="faq-div">
                         <ul class="faq-ul">
@@ -62,7 +62,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-3">
+            <div class="col-md-3">
                 <img class="wow animate__zoomIn" src="./assets/images/FAQ section.png" alt="">
             </div>
         </div>
