@@ -16,11 +16,20 @@
 				<div class="col-md-8 text-right">
 					<div class="menuWrap d-flex align-items-center">
 						<ul class="menu">
-							<li class="active"><a href="./">Home</a></li>
-							<li><a href="./portfolio.php">Portfolio</a></li>
-							<li><a href="./blogs.php">Blogs</a></li>
-							<li><a href="./contact.php">Contact</a></li>
+							<li <?php if (basename($_SERVER['PHP_SELF']) == 'index.php') echo 'class="active"'; ?>>
+								<a href="./">Home</a>
+							</li>
+							<li <?php if (basename($_SERVER['PHP_SELF']) == 'portfolio.php') echo 'class="active"'; ?>>
+								<a href="./portfolio.php">Portfolio</a>
+							</li>
+							<li <?php if (basename($_SERVER['PHP_SELF']) == 'blogs.php') echo 'class="active"'; ?>>
+								<a href="./blogs.php">Blogs</a>
+							</li>
+							<li <?php if (basename($_SERVER['PHP_SELF']) == 'contact.php') echo 'class="active"'; ?>>
+								<a href="./contact.php">Contact</a>
+							</li>
 						</ul>
+
 
 						<div class="header-btn">
 							<button class="btn">
