@@ -1201,7 +1201,44 @@ footer li.social-link a {
 	.contact-form img {
 		width: 60%;
 		display: block;
-		margin:  0px auto 30px;
+		margin: 0px auto 30px;
+	}
+
+
+	/* Porfolio Section */
+
+	.portfolio-section .col-md-4 {
+		margin-top: 20px;
+	}
+
+	.portfolio-section .portfolio-section-body>div>div {
+		flex: 1 1 calc(50% - 20px);
+	}
+
+	/* Portfolio Detail */
+	.portfolio-detail .row {
+		flex-direction: column-reverse;
+	}
+
+	.portfolio-detail .col-md-8 {
+		margin-top: 50px;
+	}
+
+	.portfolio-detail h1 {
+		margin-bottom: 20px;
+	}
+
+	.portfolio-detail img {
+		width: 100%;
+	}
+
+	/* Blog Page */
+	.blogs-section .blogs-section-cards {
+		gap: 40px;
+	}
+
+	.blogs-section .blogs-section-cards .blogs-card {
+		flex: 1 1 calc(50% - 20px);
 	}
 
 	/* Foooter */
@@ -1245,5 +1282,16 @@ footer li.social-link a {
 
 	.contact-form .contact-form-body .input-container label span {
 		padding: 3px 10px;
+	}
+
+
+	/* Portfolio Page */
+	.portfolio-section .portfolio-section-body>div>div {
+		flex: 1 1 calc(100% - 20px);
+	}
+
+	/* Blog Page */
+	.blogs-section .blogs-section-cards .blogs-card {
+		flex: 1 1 calc(100% - 20px);
 	}
 }
